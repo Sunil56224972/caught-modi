@@ -2,10 +2,18 @@
 
 **Caught Modi** is an endless 3D runner game built from scratch using HTML5, JavaScript, and the **Three.js** library. The game features a fun, meme-inspired environment where you dodge obstacles, collect coins, and run for your life!
 
-<p align="center">
-  <img src="Screenshot%202026-07-12%20162405.png" width="48%">
-  <img src="modi%20image.png" width="48%">
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" valign="middle" width="50%">
+        <img src="Screenshot%202026-07-12%20162405.png" width="100%" alt="Game Preview">
+      </td>
+      <td align="center" valign="middle" width="50%">
+        <img src="modi%20image.png" width="100%" alt="Modi Sprite">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 🎮 Play the Game
 
