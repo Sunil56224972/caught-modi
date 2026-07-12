@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -866,7 +866,8 @@
         }
     });
 
-    document.getElementById('btn-play').addEventListener('click', () => {
+    document.getElementById('btn-play').addEventListener('click', (e) => {
+        e.currentTarget.blur();
         openFullscreen(); // Request fullscreen mode
         if (audioCtx.state === 'suspended') audioCtx.resume();
         playCustomAudio('start');
@@ -875,7 +876,8 @@
         resetGame(); gameState = 'PLAYING';
     });
     
-    document.getElementById('btn-restart').addEventListener('click', () => {
+    document.getElementById('btn-restart').addEventListener('click', (e) => {
+        e.currentTarget.blur();
         openFullscreen(); // Request fullscreen mode
         if (audioCtx.state === 'suspended') audioCtx.resume();
         playCustomAudio('start');
